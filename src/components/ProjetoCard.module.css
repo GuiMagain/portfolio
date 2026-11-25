@@ -1,0 +1,27 @@
+.card {
+    background-color: var(--cor-superficie);
+    border: 1px solid var(--cor-secundaria);
+    border-radius: 12px;
+    padding: 1rem;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    border-color: var(--cor-destaque);
+}
+
+.card h3 {
+    color: var(--cor-titulo);
+    margin-top: 0;
+}
+
+.links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.links a {
+    color: var(--cor-destaque);
+}

@@ -1,0 +1,14 @@
+:root {
+  --cor-fundo: #000000;
+  --cor-superficie: #141414;
+  --cor-texto: #ffffff;
+  --cor-destaque: #c9fa64;
+  --cor-secundaria: #13b195;
+  --cor-texto-suave: #a1a1aa;
+}
+
+body {
+  background-color: var(--cor-fundo); 
+  color: var(--cor-texto);
+  font-family: system-ui, sans-serif;
+}

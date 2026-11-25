@@ -1,0 +1,16 @@
+.secao {
+    padding: 3rem 1.5rem;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.titulo {
+    color: var(--cor-destaque);
+    margin-bottom: 2 rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+}
