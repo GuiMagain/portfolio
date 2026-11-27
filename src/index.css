@@ -3,7 +3,7 @@
   --cor-superficie: #141414;
   --cor-texto: #ffffff;
   --cor-destaque: #c9fa64;
-  --cor-secundaria: #13b195;
+  --cor-secundaria: #15a474;
   --cor-texto-suave: #a1a1aa;
 }
 
@@ -11,4 +11,12 @@ body {
   background-color: var(--cor-fundo); 
   color: var(--cor-texto);
   font-family: system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 5rem;
 }

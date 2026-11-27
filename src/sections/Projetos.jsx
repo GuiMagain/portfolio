@@ -5,7 +5,7 @@ import styles from './Projetos.module.css';
 export default function Projetos() {
     return (
 
-        <section id="Projetos" className={styles.secao}>
+        <section id="projetos" className={styles.secao}>
             <h2 className={styles.titulo}>Projetos</h2>
 
             <div className={styles.grid}>

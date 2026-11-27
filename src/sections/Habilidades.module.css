@@ -1,0 +1,38 @@
+.secao {
+    padding: 3rem 1.5rem;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.titulo {
+    color: var(--cor-destaque);
+    margin-bottom: 2rem;
+}
+
+.grupo {
+    margin-bottom: 1.5rem;
+}
+
+.categoria {
+    color: var(--cor-secundaria);
+    font-size: 1rem;
+    margin: 0 0 0.75rem;
+}
+
+.tags {
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tag {
+    background-color: var(--cor-superficie);
+    border: 1px solid var(--cor-secundaria);
+    border-radius: 999px;
+    color: var(--cor-texto);
+    padding: 0.35rem 0.9rem;
+    font-size: 0.9rem;
+}
